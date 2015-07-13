@@ -7,7 +7,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add the GoDaddy Email Marketing signup form to your WordPress site! Easy to set up, the plugin allows your site visitors to subscribe to your email lists.
+Add the GoDaddy Email Marketing plugin to your WordPress site! Easy to set up, the plugin allows your site visitors to subscribe to your email lists.
 
 == Description ==
 
@@ -67,8 +67,8 @@ You can find your API key in the Settings section of your GoDaddy Email Marketin
 
 1. Settings screen.
 2. A full list of your GoDaddy Email Marketing Webforms, with ready shortcodes
-3. The widget, on the front-end
-4. The widget, on the widgets page
+3. The widget, on the widgets page
+4. The widget, on the front-end
 
 == Changelog ==
 
