@@ -25,19 +25,21 @@ class GEM_Form_Renderer {
 
 					<?php do_action( 'gem_after_fields', $form_id, $form->fields ); ?>
 
+					<p>
+						<input type="hidden" name="form_id" value="<?php echo absint( $form->id ); ?>" />
+						<input type="submit" value="<?php echo esc_attr( $form->button_text ); ?>" class="button gem-submit" />
+						<span class="gem-spinner"></span>
+					</p>
+
 					<?php $show_powered_by = GEM_Settings_Controls::get_option( 'display_powered_by' ) ? true : false;
 
 					if ( $show_powered_by ) : ?>
 
 						<p>
-							<a href="http://godaddy.com" target="_blank"><?php esc_html_e( 'Powered by GoDaddy', 'gem' ); ?></a>
+							<a href="https://www.godaddy.com/business/email-marketing/" target="_blank"><?php esc_html_e( 'Powered by GoDaddy', 'gem' ); ?></a>
 						</p>
 
 					<?php endif; ?>
-
-					<input type="hidden" name="form_id" value="<?php echo absint( $form->id ); ?>" />
-					<input type="submit" value="<?php echo esc_attr( $form->button_text ); ?>" class="button gem-submit" />
-					<span class="gem-spinner"></span>
 
 				</form>
 			</div>
