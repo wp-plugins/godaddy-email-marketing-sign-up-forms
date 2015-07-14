@@ -1,5 +1,5 @@
 === GoDaddy Email Marketing ===
-Contributors: godaddy, madmimi, humanmade
+Contributors: godaddy, humanmade
 Tags: forms, newsletter, opt-in, email marketing, signup, subscribe
 Requires at least: 3.5
 Tested up to: 4.3
@@ -77,4 +77,4 @@ You can find your API key in the Settings section of your GoDaddy Email Marketin
 * Move the "Powered by GoDaddy Link" below the submit button and link it up to the correct place
 
 = 1.0 =
-* Initial version. forked from the Mad Mimi Sign Up Forms WordPress Plugin: https://wordpress.org/plugins/mad-mimi-sign-up-forms/
+* Initial version.
