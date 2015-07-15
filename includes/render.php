@@ -100,6 +100,7 @@ class GEM_Form_Fields {
 			<?php endif; ?>
 
 		</label>
+		<br/>
 
 		<input type="text" name="<?php echo esc_attr( $args->name ); ?>" id="<?php echo esc_attr( self::get_form_id( $args->name ) ); ?>" class="<?php echo esc_attr( join( ' ', $field_classes ) ); ?>" />
 
@@ -127,6 +128,7 @@ class GEM_Form_Fields {
 			<?php endif; ?>
 
 		</label>
+		<br/>
 
 	<?php }
 }
